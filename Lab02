@@ -1,0 +1,14 @@
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.rcParams["figure.figsize"] = (2,10)
+
+
+def show_digit(img, caption='', subplot=None):
+    if subplot == None:
+        _, (subplot) = plt.subplots(1,1)
+    imgr = img.reshape((28,28))
+    subplot.axis('off')
+    subplot.imshow(imgr, cmap='gray')
+    plt.title(caption)
+
+show_digit(train_set[0][30], 'This is a {}'.format(train_set[1][30]))
