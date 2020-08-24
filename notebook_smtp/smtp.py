@@ -7,7 +7,7 @@ sender = 'yourname@163.com'
 receiver = 'yournam@xxx.com'
 smtpserver = 'smtp.163.com'
 username = 'yourname'
-password = 'xxxxxx'  # 是授权密码而不是邮箱登陆密码，可参考https://github.com/hlmiao/Sagemakerlab/blob/master/pincode.png
+password = 'xxxxxx'  # 是授权密码而不是邮箱登陆密码，可参考https://github.com/hlmiao/Sagemakerlab/blob/master/notebook_smtp/authorization_code.png
 mail_title = 'This a test email from Sagemaker'
 
 # 创建一个带附件的实例
